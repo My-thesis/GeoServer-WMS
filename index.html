@@ -5,10 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
+     <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+     <script src="https://unpkg.com/elm-pep"></script>
     <title>Estonian Soilmap</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="map" class="map"></div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
